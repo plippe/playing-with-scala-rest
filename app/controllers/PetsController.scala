@@ -60,4 +60,12 @@ class PetsController @Inject()(
       .merge
   }
 
+  def deleteById(id: String) = Action {
+    store.get(id)
+      .fold(NotFound(s"Pet not found: ${id}")) { _ =>
+        store.remove(id)
+
+        NoContent
+      }
+  }
 }

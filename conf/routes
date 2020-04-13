@@ -14,3 +14,5 @@ GET /pets/:id controllers.PetsController.getById(id: String)
 
 POST /pets     controllers.PetsController.post
 PUT  /pets/:id controllers.PetsController.putById(id: String)
+
+DELETE /pets/:id controllers.PetsController.deleteById(id: String)
