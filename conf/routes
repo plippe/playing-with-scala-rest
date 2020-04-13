@@ -11,3 +11,6 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET /pets     controllers.PetsController.get
 GET /pets/:id controllers.PetsController.getById(id: String)
+
+POST /pets     controllers.PetsController.post
+PUT  /pets/:id controllers.PetsController.putById(id: String)
