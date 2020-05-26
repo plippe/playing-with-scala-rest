@@ -1,9 +1,9 @@
 # Playing with scala - ReST API
 
-Source code for https://plippe.github.io/blog/2020/04/01/playing-with-scala-rest.html
+Source code for https://plippe.github.io/blog/2020/04/01/playing-with-scala-rest-api.html
 
 ```sh
--> curl localhost:9000/pets curl
+-> curl localhost:9000/pets
 []
 
 -> curl localhost:9000/pets -d '{"name": "dog"}' -H 'Content-Type: application/json'
