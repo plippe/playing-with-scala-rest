@@ -1,4 +1,4 @@
-# Playing with scala - ReST
+# Playing with scala - ReST API
 
 Source code for https://plippe.github.io/blog/2020/04/01/playing-with-scala-rest.html
 
